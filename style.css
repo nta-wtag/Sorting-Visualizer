@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 3rem;
+}
+
+button{
+    background-color: #FF0066;
+    padding: .5rem 1rem;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.controls {
+  margin-bottom: 2rem;
+}
+
+#bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 600px;
+  background: white;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.bar {
+  background: #FF0066;
+  margin: 1px;
+  flex: 1;
+}
